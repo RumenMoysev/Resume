@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Румен Мойсев</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <main>
+        <section class="left-section">
+            <div class="container person-info">
+                <img src="./assets/profile_pic.jpg" alt="profile_picture" width="100" height="100" />
+                <h3>Rumen Moysev</h3>
+                <p>Web developer</p>
+            </div>
+
+            <hr class="divider" />
+
+            <div class="container">
+                <div class="left-header">
+                    <img src="./assets/skills.svg" alt="skills" />
+                    <h3>TECHNICAL SKILLS</h3>
+                </div>
+                <div>
+                    <div class="skill-category">
+                        <b>Programming languages</b>
+                        <ul>
+                            <li>JavaScript, TypeScript, HTML, CSS</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <b>Frameworks</b>
+                        <ul>
+                            <li>React, Vue, Angular, Mongoose</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <b>Databases</b>
+                        <ul>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="left-header">
+                    <img src="./assets/soft_skills.svg" alt="skills" />
+                    <h3>SOFT SKILLS</h3>
+                </div>
+                <div class="soft-skills">
+                    <p>Teamwork</p>
+                    <p>Attention to detail</p>
+                    <p>Communication</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="left-header">
+                    <img src="./assets/skills.svg" alt="skills" />
+                    <h3>PERSONAL PROJECTS</h3>
+                </div>
+                <div>
+                    <div class="project">
+                        <b>Tech Review Site </b>
+                        <img onclick="openLink('techReviewSite')" class="clickable"  src="./assets/project_link.svg" alt="skills" />
+                        <ul>
+                            <li>A web application built with ReactJS and with its
+                            own RESTful API. It's like a social media app. Itn
+                            has different color themes to choose from.</li>
+                        </ul>
+                    </div>
+                    <div class="project">
+                        <b>Gallery Site</b>
+                        <img onclick="openLink('gallerySiteAngular')" class="clickable" src="./assets/project_link.svg" alt="skills" />
+                        <img onclick="openLink('gallerySiteVue')" class="clickable" src="./assets/project_link.svg" alt="skills" />
+                        <ul>
+                            <li>A web application built with Angular and
+                            Typescript. It has its own RESTful API built with
+                            Express, MongoDB and Mongoose.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="left-header">
+                    <img src="./assets/hobbies.svg" alt="skills" />
+                    <h3>HOBBIES</h3>
+                </div>
+                <div class="hobbies">
+                    <p>Working out</p>
+                    <p>Gaming</p>
+                    <p>Board games</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="left-header">
+                    <img src="./assets/soft_skills.svg" alt="skills" />
+                    <h3>LANGUAGES</h3>
+                </div>
+                <p>English</p>
+                <div class="circle-container">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle empty"></div>
+                    <div class="circle empty"></div>
+                </div>
+            </div>
+
+        </section>
+        <section class="right-section">
+            <div class="container">
+                <p class="black-text">An independent and motivated recent graduate of Softuni
+                with practical experience with JS, NodeJS, Express, React
+                and Angular. Seeking to help the company Lukanet create
+                its best product. An independent and motivated recent graduate of Softuni
+                with practical experience with JS, NodeJS, Express, React
+                and Angular. Seeking to help the company Lukanet create
+                its best product.</p>
+            </div>
+
+            <div class="container">
+                <div class="contact-info columns-2">
+                    <div class="info-item">
+                        <img src="./assets/mail.svg" alt="skills" />
+                        <p>rumenmoysev@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <img id="github" src="./assets/github.svg" alt="skills" />
+                        <p>github.com/RumenMoysev</p>
+                    </div>
+                    <div class="info-item">
+                        <img src="./assets/phone.svg" alt="skills" />
+                        <p>+359 87 720 7212</p>
+                    </div>
+                    <div class="info-item">
+                        <img src="./assets/location.svg" alt="skills" />
+                        <p>Sofia, Bulgaria</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container education">
+                <div class="right-header" style="margin-bottom: 10px;">
+                    <img src="./assets/education.svg" alt="skills" />
+                    <h3>EDUCATION</h3>
+                </div>
+                <div class="right-header">
+                    <h3>JS Web Developer</h3>
+                </div>
+                <div class="row-space-between" style="margin-bottom: 10px;">
+                    <p>10/2022-12/2024</p>
+                    <p>Sofia, Bulgaria</p>
+                </div>
+                <div class="columns-2 courses" style="height: 57vh;">
+                    <p style="margin-bottom: 20px;"><b>JS Advanced</b> - In-depth study of
+                    JavaScript, focusing on its usage in
+                    browsers. Understanding the
+                    differences between functional
+                    and object-oriented programming,
+                    browser elements, and the DOM
+                    tree. Manipulation of DOM
+                    elements, understanding unit
+                    testing, and ability to create Single
+                    Page Applications with JavaScript
+                    using Routing and Templating.
+                    </p>
+                    <p><b>Typescript</b> - extends JavaScript
+                    knowledge with TypeScript by
+                    introducing static typing. It covers
+                    basic types, object-oriented
+                    principles such as classes,
+                    inheritance, abstraction,
+                    interfaces, and generics.
+                    </p>
+                    <p style="margin-bottom: 20px;"><b>Front-End</b> - learning the
+                    fundamentals of HTML and CSS.
+                    Building SPA applications with
+                    modern frameworks such as
+                    ReactJS and Angular. Using hooks
+                    and promises for React. Using
+                    observables and the dependency
+                    injection principle in Angular.
+                    </p>
+                    <p><b>JS Back-End</b> - Developing server
+                    side JavaScript applications using
+                    Node.js, the Express.js framework
+                    and MongoDB with Mongoose. Use
+                    of MongoDB and the Mongoose
+                    library for data handling. Building a
+                    complete REST API by the end of
+                    the course.
+                    </p>
+                </div>
+                <div class="right-header">
+                    <h3>Univeristy</h3>
+                </div>
+                <h4>UNIBIT (Computer Science)</h4>
+                <div class="row-space-between" style="margin-bottom: 10px;">
+                    <p>09/2024-present</p>
+                    <p>Sofia, Bulgaria</p>
+                </div>
+            </div>
+            <div class="container certificates">
+                <div class="right-header" style="margin-bottom: 10px;">
+                    <img src="./assets/education.svg" alt="skills" />
+                    <h3>CERTIFICATES</h3>
+                </div>
+                <div class="certificate">
+                    <p>JS Web Developer (10/2022 - 04/2024)</p>
+                    <img onclick="openLink('jsWebDiploma')" class="clickable" src="./assets/project_link.svg" alt="skills" />
+                </div>
+                <div class="certificate">
+                    <p>JS Advanced (05/2023 - 06/2023)</p>
+                    <img onclick="openLink('advancedCert')" class="clickable" src="./assets/project_link.svg" alt="skills" />
+                </div>
+                <div class="certificate">
+                    <p>JS Applications (06/2023 - 07/2023)</p>
+                    <img onclick="openLink('applicationsCert')" class="clickable" src="./assets/project_link.svg" alt="skills" />
+                </div>
+                <div class="certificate">
+                    <p>JS Back-End (09/2023 - 10/2023)</p>
+                    <img onclick="openLink('backEndCert')" class="clickable" src="./assets/project_link.svg" alt="skills" />
+                </div>
+                <div class="certificate">
+                    <p>ReactJS (10/2023 - 12/2024)</p>
+                    <img onclick="openLink('reactCert')" class="clickable" src="./assets/project_link.svg" alt="skills" />
+                </div>
+                <div class="certificate">
+                    <p>HTML & CSS (01/2024 - 02/2024)</p>
+                    <img onclick="openLink('htmlCssCert')" class="clickable" src="./assets/project_link.svg" alt="skills" />
+                </div>
+                <div class="certificate">
+                    <p>Angular (02/2024 - 04/2024)</p>
+                    <img onclick="openLink('angularCert')" class="clickable" src="./assets/project_link.svg" alt="skills" />
+                </div>
+                <div class="certificate">
+                    <p>TypeScript (04/2024 - 04/2024)</p>
+                    <img onclick="openLink('typescriptCert')" class="clickable" src="./assets/project_link.svg" alt="skills" />
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
