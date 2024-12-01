@@ -61,3 +61,10 @@
     display: flex;
     gap: 10px;
 }
+
+.about {
+    padding: 2% 3%;
+    border: 2px solid #333b4d;
+    border-radius: 10px;
+    text-align: center;
+}

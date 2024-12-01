@@ -14,7 +14,6 @@ html {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* color: #fff; */
 }
 
 button {
@@ -22,7 +21,7 @@ button {
 }
 
 body {
-    min-height: 160vh;
+    min-height: 165vh;
     background-color: #a7a7a7;
 }
 
@@ -30,7 +29,7 @@ main {
     width: 60%;
     margin: 0 auto;
     display: flex;
-    height: 160vh;
+    height: 165vh;
 }
 
 .container {
