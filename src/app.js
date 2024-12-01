@@ -9,7 +9,8 @@ const links = {
     reactCert: 'https://softuni.bg/certificates/details/197834/96536f45',
     htmlCssCert: 'https://softuni.bg/certificates/details/205107/88bebec2',
     angularCert: 'https://softuni.bg/certificates/details/211745/a81a377c',
-    typescriptCert: 'https://softuni.bg/certificates/details/215539/2521d71f'
+    typescriptCert: 'https://softuni.bg/certificates/details/215539/2521d71f',
+    github: 'https://github.com/RumenMoysev'
 }
 
 function openLink(link) {
